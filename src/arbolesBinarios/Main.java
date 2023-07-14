@@ -13,7 +13,7 @@ public class Main {
 		pila.insert(a);
 		a1 = ArbolB.nuevoArbol(null,"Anyora",null);
 		a2 = ArbolB.nuevoArbol(null,"Abel",null);
-		a = ArbolB.nuevoArbol(a1,"M Jesus",a2);
+		a = ArbolB.nuevoArbol(a1,"Jesus",a2);
 		pila.insert(a);
 		a2 = (Nodo) pila.remove();
 		a1 = (Nodo) pila.remove();
